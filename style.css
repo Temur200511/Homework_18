@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .background {
+      background-color: rgb(116, 198, 157);
+  }
+  header {
+  
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 38px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+  }
+  li {
+    text-decoration: none;
+  }
+a{
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: rgb(255, 255, 255);
+}
+
+a:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+
+  .second_r{
+   
+    margin-top: 40px;
+    text-align: center;
+
+  }
+
+  .Portfolio:hover{
+
+cursor: pointer;
+color: red;
+
+  }
+
+
+
+  .Portfolio{
+    padding-top: 16px;
+color: rgb(0, 0, 0);
+font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+font-family: "Open Sans", sans-serif;
+
+  }
+
+
+.Works:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+
+  .Works{
+    font-family: "Work Sans", sans-serif;
+    color: rgb(116, 198, 157);
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+
+  }
+
+  .lorem{
+    padding-top: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    font-family: "Work Sans", sans-serif;
+   
+
+  }
+
+  .third_r{
+    margin-top: 82px;
+    display: flex;
+    gap: 55px;
+  }
+
+  .fourt_r{
+    display: flex;
+    gap: 55px;
+margin-top: 55px;
+  }
+
+  .fifth_r{
+    margin-top: 55px;
+  }
+
+  .sixth_r{
+    margin-top: 55px;
+  }
+
+  .seven_r{
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .eigth_r{
+    margin-top: 99px;
+text-align: center;  
+}
+
+.but:hover{
+  cursor: pointer;
+  color: red;
+  background-color: #e3e3e3;
+}
+.but{
+color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 125%;
+letter-spacing: 0px;
+text-align: center;
+  background-color: rgb(33, 37, 41);
+  padding: 13px 29.5px 10px 29.5px;
+  margin-bottom: 64px;
+}
+
+
+.last_p{
+margin-top: 135px;
+width: 1440px;
+height: 125px;
+display: flex;
+align-items: center;
+gap: 609px;
+
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+  font-size: rgb(255, 255, 255);
+  padding-top: 59px;
+  padding-bottom: 48px;
+}
+
+
+.rigts{
+  color: rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
