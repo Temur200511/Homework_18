@@ -11,6 +11,11 @@
     margin: auto;
   }
   
+.menu{
+
+  display: none;
+}
+
   .background {
       background-color: rgb(116, 198, 157);
   }
@@ -26,7 +31,7 @@
   ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
   }
   li {
@@ -48,18 +53,13 @@ a:hover{
 
 
   .second_r{
-   
+   margin: auto;
+   width: 360px;
     margin-top: 40px;
     text-align: center;
-
   }
 
-  .Portfolio:hover{
-
-cursor: pointer;
-color: red;
-
-  }
+  
 
 
 
@@ -74,10 +74,7 @@ font-family: "Open Sans", sans-serif;
   }
 
 
-.Works:hover{
-  cursor: pointer;
-  color: blue;
-}
+
 
 
   .Works{
@@ -99,27 +96,33 @@ line-height: 125%;
    
 
   }
+.first_r{
+  margin-top: 82px;
+  display: flex ;
+  justify-content: center;
+gap: 55px;
 
-  .third_r{
-    margin-top: 82px;
-    display: flex;
-    gap: 55px;
-  }
+}
 
-  .fourt_r{
-    display: flex;
-    gap: 55px;
-margin-top: 55px;
-  }
+.row_2{
+  display: flex ;
+  justify-content: center;
+gap: 55px;
+}
 
-  .fifth_r{
-    margin-top: 55px;
-  }
+.row_3{
+  display: flex ;
+  justify-content: center;
+gap: 55px;
+}
+.row_4{
+  display: flex ;
+  justify-content: center;
+gap: 55px;
+}
 
-  .sixth_r{
-    margin-top: 55px;
-  }
 
+  
   .seven_r{
     text-align: center;
     margin-top: 64px;
@@ -132,8 +135,8 @@ text-align: center;
 
 .but:hover{
   cursor: pointer;
-  color: red;
-  background-color: #e3e3e3;
+  color: aqua;
+  background-color: yellow;
 }
 .but{
 color: rgb(255, 255, 255);
@@ -151,8 +154,6 @@ text-align: center;
 
 .last_p{
 margin-top: 135px;
-width: 1440px;
-height: 125px;
 display: flex;
 align-items: center;
 gap: 609px;
@@ -175,3 +176,219 @@ gap: 609px;
   font-size: 20px;
   line-height: 125%;
 }
+
+.second_r{
+  text-align: center;
+  
+}
+.lorem{
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:982px)
+{
+
+header{
+  display: flex;
+justify-content: space-between;
+  gap: 230px;
+}
+
+.image{
+  width: 320px;
+}
+
+.row_4{
+  display: flex ;
+  justify-content: center;
+gap: 25px;
+}
+
+.first_r{
+  display: flex ;
+  justify-content: center;
+gap: 25px;
+}
+
+.row_2{
+  display: flex ;
+  justify-content: center;
+gap: 25px;
+}
+
+.row_3{
+  display: flex ;
+  justify-content: center;
+gap: 25px;
+}
+
+.last_p{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 250px;
+
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+  }
+
+
+
+
+
+}
+
+@media(max-width:742px)
+{
+  header{
+    display: flex;
+  justify-content: space-between;
+    gap: 100px;
+  }
+  
+.image{
+  width: 400px;
+}
+
+
+  .first_r{
+
+flex-direction: column;    
+align-items: center;
+  }
+ 
+  .row_2{
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.row_3{
+  flex-direction: column;
+    align-items: center;
+}
+
+.row_4{
+  flex-direction: column;
+    align-items: center;
+}
+
+.last_p{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+
+  }
+
+}
+
+
+@media(max-width:612px)
+
+{
+a{
+  font-size: 15px;
+  gap: 10px;
+}
+.start{
+  width: 100px;
+}
+
+.rigts{
+  font-size: 15px;
+}
+
+header{
+gap: 90px;
+}
+
+ul{
+flex-direction: column;
+}
+
+.last_p{
+  margin-top: 30px;
+  display: flex;
+flex-direction: column;
+row-gap: 10px;
+  }
+.icons{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+
+}
+
+@media (max-width:416px) 
+
+{
+  .image{
+    width: 350px;
+  }
+}
+
+
+
+
+
+
+@media (max-width:375px) 
+{
+
+.menu{
+  display: block;
+  background-color: rgb(116, 198, 157);
+border: none;
+}
+
+ul{
+  display: none;
+}
+
+.second_r{
+  width: 335px;
+
+}
+
+.rigts{
+  padding-bottom: 31px;
+  font-size: 20px;
+}
+
+.icons
+{
+  padding-top: 31px;
+}
+
+.but{
+  margin-bottom: 27px;
+}
+
+i{
+  width: 20px;
+}
+
+.Portfolio{
+  font-size: 24px;
+}
+
+
+}
+
